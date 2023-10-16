@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>forms tag</title>
+</head>
+<body>
+<form>
+    <h1>maxlength example</h1>
+    <input type="text" maxlength="20">
+    <h1>value attribute</h1>
+    <input type="text" value="1000">
+    <h1>read only tag</h1>
+<input type="text" value="1000"> 
+<h1>disabled tag</h1>
+<input type="text" value="1000" disabled="disabled"/>
+<h1>id tag</h1>
+<input type="text" id="txt">
+<h1>placeholder example</h1>
+<input type="text" placeholder="enter first name"
+name="first name"><br>
+ <input type="text" placeholder="enter last name"
+ name="last name"><br>
+ <h1>autofocus</h1>
+First name:<input type="text" name="firstname"
+autofocus="autofocus"/> <br>
+Last name:<input type="text" name="lastname"
+autofocus="autofocus"/> <br>
+<h1>required tag</h1>
+<input type="text" name="username"  required="required"/>
+<input type="submit"/>
+<h1>pattern example</h1>
+<input type="text" pattern="^[a-zA-z]*$" title="only alphabets"/>
+ <input type="submit"/>
+ <h1>min tag and max tag</h1>
+ Quantity between : <br>
+ <input type="number" name="quqntity" min="1" max="50"/> <br>
+ Dob:
+ <input type="date" name="dob" min="1980-01-01"> <br>
+ <input type="submit"><br>
+ Step attribute;
+ <input type="number" name="amount" step="10"><br>
+</form>
+</body>
+</html>
